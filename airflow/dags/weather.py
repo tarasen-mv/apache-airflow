@@ -17,7 +17,7 @@ def get_weather(url_params):
     resp = api_hook.run(url)
     data = resp.json()['data']
 
-    # usually I don't really care about this, but in case of big data, it may be very useful
+    # usually I don't really care about this, but in case of big data, I guess it may be very useful
     del resp
 
     weather_insert = """
