@@ -1,4 +1,4 @@
 # python3.7
-apache-airflow==1.10.9
+apache-airflow==1.10.14
 w3lib==1.21.0
 
